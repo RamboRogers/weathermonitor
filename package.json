@@ -1,0 +1,27 @@
+{
+  "name": "imageshow",
+  "version": "1.0.0",
+  "description": "A simple HTML rotating weather page, useful for a kiosk or presenting in a browser window.",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Matthew Rogers",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "open": "^10.0.3",
+    "weathered": "^0.3.4"
+  },
+  "pkg": {
+    "assets": [
+      "server.js",
+      "script.js",
+      "style.css",
+      "index.html"
+    ]
+  }
+  
+}

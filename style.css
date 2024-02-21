@@ -1,0 +1,31 @@
+body, html {
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: black;
+}
+
+#weather {
+    width: 100%;
+    height: 100%;
+    display: normal; /* Enable flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: white;
+    line-height:  .9;
+    font-size: xx-large;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    color: rgb(0, 153, 255);
+    font-weight: bolder;
+    font-style: oblique;
+    
+}
+  
+h3 {
+    color: rgb(0, 238, 255);
+    font-size: xx-large;
+}
+
