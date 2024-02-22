@@ -2,6 +2,7 @@ body, html {
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     background-color: black;
+    color: white;
 }
 
 #weather {
@@ -29,3 +30,10 @@ h3 {
     font-size: xx-large;
 }
 
+#topRightDiv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 78px;
+    z-index: 999; /* Any high number can be used to ensure this div is on top */
+}
