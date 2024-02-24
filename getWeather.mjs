@@ -45,7 +45,7 @@ async function getWeather(){
         clothes = "🧥❄️☃️";
       }
 
-      output += '<div id="topRightDiv">Currently: '+  temperature + "F "+ clothes + " 🌡️" +'</div>';
+      output += '<div id="topRightDiv">Now: '+  temperature + "F "+ clothes + " 🌡️" +'</div>';
     }
 
     const forecast = await client.getForecast(latitude, longitude, 'baseline');
