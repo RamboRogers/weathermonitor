@@ -26,8 +26,8 @@ async function getWeather(){
       const { stationIdentifier } = nearestStation.properties;
       const latestObservation = await client.getLatestStationObservations(stationIdentifier);
       var temperature = Math.round(latestObservation.properties.temperature.value * 9 /5 + 32)
-      output += "<h3>Current Temperature: " + temperature + "F" + "🌡️\n</h3>";
-      output += '<div id="topRightDiv">'+  temperature + "F" + "🌡️" +'</div>';
+      //output += "<h3>Current Temperature: " + temperature + "F" + "🌡️\n</h3>";
+      output += '<div id="topRightDiv">Currently: '+  temperature + "F" + "🌡️" +'</div>';
     }
 
     const forecast = await client.getForecast(latitude, longitude, 'baseline');
