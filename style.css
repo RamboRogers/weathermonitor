@@ -34,7 +34,10 @@ h3 {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 78px;
+    font-size: 64px;
     z-index: 999; /* Any high number can be used to ensure this div is on top */
-    margin: 25px 25px 25px 25px;
+    margin: 15px 15px 15px 15px;
+    color: greenyellow;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
 }

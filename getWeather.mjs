@@ -30,17 +30,17 @@ async function getWeather(){
       
       var clothes = "";
       if( temperature > 80 ){
-          clothes = "🩳👙🔥";
+          clothes = "👙🔥";
       } else if(temperature > 70){
-        clothes = "🩳🙂❤️";
+        clothes = "🩳❤️";
       } else if(temperature > 60){
         clothes = "👖😇";
       } else if(temperature > 50){
-        clothes = "🧥👖";
+        clothes = "🧥😐";
       } else if(temperature > 40){
-        clothes = "🧥👖🥶";
+        clothes = "🧥🥶";
       } else if(temperature > 32){
-        clothes = "🧥👖🥶";
+        clothes = "🧥🥶";
       } else {
         clothes = "🧥❄️☃️";
       }
