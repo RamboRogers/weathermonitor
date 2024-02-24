@@ -5,9 +5,9 @@ This would probably be useful in a bar, or some other venue that would like to s
 
 The Weather Montior is powered by the National Weather Service funded by US Federal Tax dollars; I don't know if this will work outside of the USA🌍.
 
-![monitor.jpeg](monitor.jpeg)
+![weather2.png](weather2.png)
 
-![alt text](image-1.png)
+![monitor.jpeg](monitor.jpeg)
 
 ## Features
 
