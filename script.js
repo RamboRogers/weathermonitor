@@ -4,7 +4,7 @@ function updateWeather() {
       .then(response => response.text()) // Convert the response to text
       .then(text => {
         weather.innerHTML = text; // Update the innerHTML with the fetched text
-        setTimeout(updateWeather, 900000); // Refresh every 3000 milliseconds
+        setTimeout(updateWeather, 600000); // Refresh every 3000 milliseconds
       })
       .catch(error => console.error('Error fetching weather:', error));
   }
