@@ -36,4 +36,5 @@ h3 {
     right: 0;
     font-size: 78px;
     z-index: 999; /* Any high number can be used to ensure this div is on top */
+    margin: 25px 25px 25px 25px;
 }

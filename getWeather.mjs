@@ -27,7 +27,25 @@ async function getWeather(){
       const latestObservation = await client.getLatestStationObservations(stationIdentifier);
       var temperature = Math.round(latestObservation.properties.temperature.value * 9 /5 + 32)
       //output += "<h3>Current Temperature: " + temperature + "F" + "🌡️\n</h3>";
-      output += '<div id="topRightDiv">Currently: '+  temperature + "F" + "🌡️" +'</div>';
+      
+      var clothes = "";
+      if( temperature > 80 ){
+          clothes = "🩳👙🔥";
+      } else if(temperature > 70){
+        clothes = "🩳🙂❤️";
+      } else if(temperature > 60){
+        clothes = "👖😇";
+      } else if(temperature > 50){
+        clothes = "🧥👖";
+      } else if(temperature > 40){
+        clothes = "🧥👖🥶";
+      } else if(temperature > 32){
+        clothes = "🧥👖🥶";
+      } else {
+        clothes = "🧥❄️☃️";
+      }
+
+      output += '<div id="topRightDiv">Currently: '+  temperature + "F "+ clothes + " 🌡️" +'</div>';
     }
 
     const forecast = await client.getForecast(latitude, longitude, 'baseline');
